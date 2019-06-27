@@ -7,6 +7,7 @@ public class arreglos_II {
 		a.dameNumero();
 	}
 	
+	//metodo de tipo Integer[] Arreglo de enteros
 	public Integer[] dameNumero(){
 		Integer numero[] = new Integer[5];
 		numero[0] = 1;

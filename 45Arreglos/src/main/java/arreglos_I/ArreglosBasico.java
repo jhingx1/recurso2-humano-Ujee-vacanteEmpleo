@@ -9,6 +9,8 @@ public class ArreglosBasico {
 		int[] arrNombres;
 		arrNombres = new int[5];  
 		
+		//int[] arrNombres = {5,4,2,3,1};
+		
 		//int[] arrNombres = new int[5]; //Otra forma de declarar.
 		
 		arrNombres[0] = 10;

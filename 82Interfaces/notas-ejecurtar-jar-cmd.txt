@@ -1,0 +1,5 @@
+Para generar un jar desde elcipse, tenemos que seleccionar la opcion exportar.
+Luego seleccionamos la clase principal del proyecto.
+Luego buscamos la ruta donde lo vamos a guardar.
+
+D:\REPO_JAVA_SE_JEE\REPO\82Interfaces>java -jar interfacesJar.jar

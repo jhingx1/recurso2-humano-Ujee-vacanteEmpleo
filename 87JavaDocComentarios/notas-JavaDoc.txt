@@ -1,0 +1,6 @@
+Generar JavaDOC en eclipse.
+Seleccionar el proyecto y nos vamos a la opcion proyecto(menu) y seleccionamos : Generate JavaDoc
+Nos pedira la ruta del javadoc.exe -> es el que esta en c/../bin/javadoc.exec
+Le indicamos una destino.
+
+En el destino se va a generar una carpeta con el nombre doc, donde encontraremos archivos de tipo html.

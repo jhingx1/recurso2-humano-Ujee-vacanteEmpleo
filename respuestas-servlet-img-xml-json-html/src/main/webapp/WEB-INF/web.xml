@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RespuestaHTML</servlet-name>
+  	<display-name>RespuestaHTML</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.RespuestaHTML</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RespuestaImagen</servlet-name>
+  	<display-name>RespuestaImagen</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.RespuestaImagen</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RespuestaJSON</servlet-name>
+  	<display-name>RespuestaJSON</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.RespuestaJSON</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RespuestaXML</servlet-name>
+  	<display-name>RespuestaXML</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.RespuestaXML</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RespuestaHTML</servlet-name>
+  	<url-pattern>/html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RespuestaImagen</servlet-name>
+  	<url-pattern>/imagen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RespuestaJSON</servlet-name>
+  	<url-pattern>/json</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RespuestaXML</servlet-name>
+  	<url-pattern>/xml</url-pattern>
+  </servlet-mapping>
+</web-app>

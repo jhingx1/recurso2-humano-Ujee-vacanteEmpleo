@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<description></description>
+  	<display-name>UploadServlet</display-name>
+  	<servlet-name>UploadServlet</servlet-name>  	  	
+  	<servlet-class>com.servlets.UploadServlet</servlet-class>
+  	<!-- https://docs.oracle.com/javaee/6/tutorial/doc/gmhal.html -->
+    <multipart-config>
+      <!-- Este caso es para windows, hay que crear un carpeta tmp -->
+      <!-- en linux solo es tmp -->	
+      <location>d:\tmp</location> 
+      <!-- Tamanio maximo del archivo a subir-->
+      <max-file-size>1048576</max-file-size>
+      <max-request-size>5242880</max-request-size>
+      <file-size-threshold>1048576</file-size-threshold>
+    </multipart-config>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UploadServlet</servlet-name>
+  	<url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+</web-app>
